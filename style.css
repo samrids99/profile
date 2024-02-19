@@ -1,0 +1,90 @@
+body {
+  background-color: #CBEED7;
+  font-family: "Signika", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+  color: #4D5746;
+}
+
+h1, h2, h3 {
+  font-family: "Mali", cursive;
+  font-weight: 400;
+  font-style: normal;;
+}
+
+.increased_text_margins {
+  margin-bottom: 40px;
+}
+
+.icons {
+  font-size: 60px;
+  color: #4E4419;
+  text-align: center;
+}
+
+.icons:hover{
+  color: #E9CB48;
+  transition: 0.6s;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  align-content: center;
+}
+
+li {
+  margin: 10px;
+  display: inline-block;
+}
+
+#challenge{
+  background-color: #4E4419;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: 400px;
+}
+
+#challenge:hover{
+  background-color: #E9CB48;
+  transition: 0.6s;
+}
+
+.card{
+  background-color: #D9D9D9;
+  padding: 50px;
+  margin: 50px 200px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, .2);
+  text-align: center;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
